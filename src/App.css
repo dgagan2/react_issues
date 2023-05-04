@@ -1,0 +1,62 @@
+body{
+    background-color: rgba(225, 223, 223, 0.291);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.LabelsBox{
+    display: flex;
+    gap: 3px;
+   
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    font-family: system-ui
+}
+.issuesListBox{
+    display: flex;
+    flex-direction: column;
+    border-style: ridge;
+    background-color: rgba(128, 128, 128, 0.092);
+    padding: 5px 15px;
+    width: 70%;
+    gap: 5px;
+}
+.LabelsBox span{
+    padding: 3px 8px 2px 8px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+img{
+    max-width: 30px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.imageBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.labels{
+    color: rgb(178, 176, 176);
+    font-size: 13px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+    max-width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+header input{
+    height: 22px;
+    border-radius: 5px;
+}
